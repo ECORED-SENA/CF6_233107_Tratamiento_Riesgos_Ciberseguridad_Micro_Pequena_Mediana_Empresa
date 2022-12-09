@@ -244,7 +244,7 @@
               img(src='@/assets/curso/tema1/figura5.svg')
             .col-9
               h5 OWASP
-              p.mb-0 Proyectos de seguridad de aplicaciones web abiertas.
+              p.mb-0 Proyectos de seguridad de aplicaciones <i>web</i> abiertas.
       .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
         .row.align-items-center.justify-content-between.fondo-8.py-2
           .col-3
@@ -274,14 +274,14 @@
             img(src='@/assets/curso/tema1/figura5.svg')
           .col-9
             h5.mb-0 WASC-TC
-            p.mb-0 Clasificación de amenazas del consorcio de seguridad de aplicaciones web.
+            p.mb-0 Clasificación de amenazas del consorcio de seguridad de aplicaciones <i>web</i>.
     p.mb-5(data-aos="fade-down-left") De las cuales se profundizará en algunas de ellas:
     .row.justify-content-center
       .col-lg-4.col-md-6.col-sm-7.col-8.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/figura6.png')
       .col-lg-8.col-md-12(data-aos="fade-down-left")
-        p NIST. Este marco de trabajo para la mejora de la seguridad cibernética en infraestructuras críticas, el cual fue generado por el Gobierno de los Estados Unidos a mediados del año 2014, brinda a las organizaciones la metodología para la reducción de riesgos cibernéticos a partir de una adecuada gestión de riesgos.
-        p Este marco de trabajo, propone la gestión desde una serie de funciones, las cuales se desarrollan de manera simultánea y continua como son: Identificar, Proteger, Detectar, Responder y Recuperar. Estas funciones del marco de trabajo, conlleva a desarrollar una serie de actividades basadas en categorías, encaminadas a reducir los riesgos que se pueden presentar y afectar la información de una organización. A continuación, se puede observar un resumen de estas categorías y actividades que se desarrollan para la adecuada gestión de vulnerabilidades:
+        p #[b NIST]. Este marco de trabajo para la mejora de la seguridad cibernética en infraestructuras críticas, el cual fue generado por el Gobierno de los Estados Unidos a mediados del año 2014, brinda a las organizaciones la metodología para la reducción de riesgos cibernéticos a partir de una adecuada gestión de riesgos.
+        p Este marco de trabajo, propone la gestión desde una serie de funciones, las cuales se desarrollan de manera simultánea y continua como son: #[b Identificar, Proteger, Detectar, Responder y Recuperar]. Estas funciones del marco de trabajo, conlleva a desarrollar una serie de actividades basadas en categorías, encaminadas a reducir los riesgos que se pueden presentar y afectar la información de una organización. A continuación, se puede observar un resumen de estas categorías y actividades que se desarrollan para la adecuada gestión de vulnerabilidades:
     .tarjeta.fondo-9.p-4.my-5(data-aos="fade-down-right")
       SlyderA(tipo="b")
         .row.justify-content-center
@@ -468,7 +468,7 @@
             p.mb-4.mb-md-0 Aunque este ha sido propuesto para infraestructuras críticas, se puede aplicar a cualquier tipo de organización, lo que lo hace un método muy llamativo para entidades del gobierno. Consulte la versión completa del documento desde su sitio oficial. Este recurso también está en el material complementario.
           .col-xxl-2.col-md-3
             a.boton.color-acento-botones(:href="('https://www.nist.gov/cyberframework/framework')" target="_blank" type="application/pdf")
-              span Ir al sitio web
+              span Ir al sitio <i>web</i>
               i.fas.fa-file-download
     .row.justify-content-center.mb-5
       .col-lg-7.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -476,17 +476,17 @@
         span Es una organización sin fines lucrativos, la cual busca ayudar a visibilizar las vulnerabilidades en aplicaciones para su mejoramiento de la seguridad a partir de una adecuada gestión del riesgo, siendo este un pilar fundamental para el desarrollo y aplicación de su metodología.
         br
         br
-        p Owasp provee de un <em>framework</em> abierto el cual permite implementar auditorías en aplicaciones principalmente de tipo web, basados esencialmente en pruebas de caja blanca y caja negra. A partir de su ejercicio identifica las vulnerabilidades más representativas y presentes en la actualidad en su Owasp top 10. En su último reporte, el Owasp Top 10 2021 se puede apreciar la siguiente clasificación frente al informe previo del año 2017:
+        p <i>Owasp</i> provee de un <em>framework</em> abierto el cual permite implementar auditorías en aplicaciones principalmente de tipo <i>web</i>, basados esencialmente en pruebas de caja blanca y caja negra. A partir de su ejercicio identifica las vulnerabilidades más representativas y presentes en la actualidad en su <i>Owasp</i> top 10. En su último reporte, el <i>Owasp</i> Top 10 2021 se puede apreciar la siguiente clasificación frente al informe previo del año 2017:
       .col-lg-5.col-md-6.col-sm-7.col-8(data-aos="fade-down-left")
         img(src='@/assets/curso/tema1/figura14.svg')
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade")
       h5 Figura 3. 
-      span Owasp Top 10 2021
+      span <i>Owasp</i> Top 10 2021
     .row.justify-content-center.mb-5.fondo-11.p-2.p-sm-3.p-lg-4
       .col-lg-10.col-md-12.px-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/figura15.svg')
       .col-lg-10.col-md-12.fondo-12.py-2(data-aos="fade-down-left")
-        p.text-small.mb-0 Nota. Tomado de OWASP (2021)
+        p.text-small.mb-0 Nota. Tomado de <i>OWASP</i> (2021)
     p.mb-5(data-aos="fade-down-right") Con base en este reporte, se analiza el comportamiento de las vulnerabilidades identificadas, así:
     .row.justify-content-center
       .col-lg-10.col-md-12(data-aos="fade-down-right")
@@ -509,10 +509,7 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check-circle
-                  | Un ciberdelincuente podría actuar en el sistema con permisos de usuario o administrador.
-                li 
-                  i.fas.fa-check-circle
-                  | Acceso a registros, directorios o archivos confidenciales para su posterior posible divulgación.
+                  | Exposición de datos sensibles a un ciberdelincuente (datos personales, críticos o estratégicos para la empresa; credenciales…).
           .row(titulo="Inyección (<em>Injection</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
               p Esto sucede cuando un ciberdelincuente puede enviar datos dañinos a un intérprete. Como novedad este año, el <em>Cross-site Scripting</em> forma parte de esta categoría. Para ello, hay que tener API seguras y controles de verificación a la hora de introducir los datos. 
@@ -526,7 +523,7 @@
                   | Bajo ciertas circunstancias podría permitir al ciberdelincuente tomar el control del servidor.
           .row(titulo="Diseño inseguro (<em>Insecure Desing</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
-              p A la hora de desarrollar una aplicación web es primordial incluir la seguridad de la aplicación desde la fase del diseño, ya que este año se ha incluido esta nueva categoría debido a la gran cantidad de aplicaciones que no la cumplen. Muchas aplicaciones cuentan con defectos en el diseño de las mismas. 
+              p A la hora de desarrollar una aplicación <i>web</i> es primordial incluir la seguridad de la aplicación desde la fase del diseño, ya que este año se ha incluido esta nueva categoría debido a la gran cantidad de aplicaciones que no la cumplen. Muchas aplicaciones cuentan con defectos en el diseño de las mismas. 
               p ¿Qué impacto puede tener esto en una empresa?
               ul.lista-ul
                 li 
@@ -537,7 +534,7 @@
                   | Acceso al servidor/aplicación por parte de un ciberdelincuente con permisos de administrador o usuario.  
           .row(titulo="Configuración de seguridad defectuosa (<em>Security Misconfiguration</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
-              p En nuestro entorno de la aplicación web, los ciberdelincuentes intentarán acceder mediante cuentas por defecto, versiones obsoletas con vulnerabilidades sin actualizar, directorios desprotegidos, etc. Por ello, tiene que estar todo bien configurado y evitar usar credenciales por defecto, como puede ser en el caso de nuestro servidor, aplicaciones o dispositivos. 
+              p En nuestro entorno de la aplicación <i>web</i>, los ciberdelincuentes intentarán acceder mediante cuentas por defecto, versiones obsoletas con vulnerabilidades sin actualizar, directorios desprotegidos, etc. Por ello, tiene que estar todo bien configurado y evitar usar credenciales por defecto, como puede ser en el caso de nuestro servidor, aplicaciones o dispositivos. 
               p ¿Qué impacto puede tener esto en una empresa?
               ul.lista-ul
                 li 
@@ -555,6 +552,10 @@
             .col-md-11.mb-4.mb-md-0
               p Esto sucede cuando en las interfaces de acceso no se controla el número de intentos de autenticación, hay una baja complejidad de las contraseñas o no se implanta un sistema multifactor “2FA”. Esto podría permitir a un ciberdelincuente realizar ataques de fuerza bruta o diccionario para ingresar en él o cuando tu aplicación permite utilizar contraseñas débiles.
               p ¿Qué impacto puede tener esto en una empresa?
+              ul.lista-ul
+                li 
+                  i.fas.fa-check-circle
+                  | Los ciberdelincuentes tendrán acceso a cuentas administrativas o de empleados en la aplicación.
           .row(titulo="Fallos en el <em>software</em> y en la integridad de los datos (<em>Software and Data Integrity Failures</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
               p Muchas aplicaciones se actualizan de manera automática. Cuando estas actualizaciones no son verificadas los ciberdelincuentes podrían modificarlas cargando sus propias actualizaciones y distribuyéndolas. 
@@ -576,7 +577,7 @@
                   | Desconocimiento sobre los actos de un ciberdelincuente en nuestro sistema.
           .row(titulo="Falsificación de Solicitud del Lado del Servidor (<em>Server-side Request Forgery o SSRF</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
-              p Cuando nuestra aplicación web obtiene un recurso externo y este no valida la URL un ciberdelincuente podría modificarla con fines malintencionados y realizar peticiones no autorizadas.
+              p Cuando nuestra aplicación <i>web</i> obtiene un recurso externo y este no valida la URL un ciberdelincuente podría modificarla con fines malintencionados y realizar peticiones no autorizadas.
               p ¿Qué impacto puede tener esto en una empresa?
               ul.lista-ul
                 li 
@@ -592,10 +593,10 @@
             img(src='@/assets/curso/tema1/figura13.svg')
           .col-xxl-8.col-md-7.text-white(data-aos="fade-down-left")
             h3.mb-0 OWASP
-            p.mb-4.mb-md-0 Dado lo anterior, owasp, se ha vuelto una metodología práctica para la identificación de vulnerabilidades en las aplicaciones web más utilizadas por los equipos de desarrollo en los últimos años. Se sugiere explorar y hacer uso de esta metodología, consultando su documento oficial. Este recurso también está en el material complementario.
+            p.mb-4.mb-md-0 Dado lo anterior, <i>owasp</i>, se ha vuelto una metodología práctica para la identificación de vulnerabilidades en las aplicaciones <i>web</i> más utilizadas por los equipos de desarrollo en los últimos años. Se sugiere explorar y hacer uso de esta metodología, consultando su documento oficial. Este recurso también está en el material complementario.
           .col-xxl-2.col-md-3(data-aos="fade-down-right")
             a.boton.color-acento-botones(:href="('https://www.nist.gov/cyberframework/framework')" target="_blank" type="application/pdf")
-              span Ir al sitio web
+              span Ir al sitio <i>web</i>
               i.fas.fa-file-download
     .div(data-aos="fade-down-right").mb-5
       span.mb-5.text-bold ISSAF. 
@@ -682,7 +683,7 @@
           .col-lg-8.col-md-10.col-sm-11.col-11.fondo-gris.pt-4.px-4.redondearpuntas.borde.mb-5
             .row
               .col-lg-2.col-md-2.col-sm-3.col-4
-                img.subir.padd(src='@/assets/curso/tema1/nro1.svg')
+                img.subir.padd(src='@/assets/curso/tema1/nro3.svg')
             .row.justify-content-center
               .col-lg-7.col-md-12.mt-2.ps-3.ps-lg-0
                 h5 Reportes, limpieza y destrucción de objetos
@@ -702,7 +703,7 @@
             p.mb-4.mb-md-0 Este proyecto lleva varios años sin mantenimiento, pero se puede consultar el texto completo de la metodología en el enlace. Este recurso también puede ser consultado en el material complementario.
           .col-xxl-2.col-md-3
             a.boton.color-acento-botones(:href="('http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologia_oissg.pdf')" target="_blank" type="application/pdf")
-              span Ir al sitio web
+              span Ir al sitio <i>web</i>
               i.fas.fa-file-download
     .cajon-b.otrocolor.p-3.mb-5(data-aos="fade-down-right")
       span.text-bold.mb-0 OSSTMM. 
@@ -789,7 +790,7 @@
             p.mb-4.mb-md-0 Si se desea profundizar detalles de esta metodología, se puede consultar su sitio oficial; el cual también se encuentra ubicado en el material complementario.
           .col-xxl-2.col-md-3
             a.boton.color-acento-botones(:href="('https://www.isecom.org')" target="_blank" type="application/pdf")
-              span Ir al sitio web
+              span Ir al sitio <i>web</i>
               i.fas.fa-file-download
     .cajon-b.otrocolor.p-3.mb-5(data-aos="fade-down-right")
       span.text-bold.mb-0 PTES. 
@@ -842,7 +843,7 @@
             p.mb-4.mb-md-0 Su consulta para conocer más a detalle esta metodología puede ser a través de su sitio oficial, el cual también se encuentra en el material complementario.
           .col-xxl-2.col-md-3
             a.boton.color-acento-botones(:href="('http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines')" target="_blank" type="application/pdf")
-              span Ir al sitio web
+              span Ir al sitio <i>web</i>
               i.fas.fa-file-download
     p(data-aos="fade-down-right") Las metodologías anteriormente descritas permitirán realizar un análisis de vulnerabilidades, establecer planes de acciones y un proceso importante, que es adoptar planes de mejoramiento al interior, dado que el proceso de gestión de vulnerabilidades debe ser un proceso continuo.
     separador
@@ -868,7 +869,7 @@
             img(src='@/assets/curso/tema1/figura29.svg')
           .col-8
             h4 Prueba de integración 
-        p Estas pruebas, buscan verificar el desarrollo de una actividad que involucra más de un componente, por ejemplo, la lógica de una aplicación web y la de un motor de base de datos.
+        p Estas pruebas, buscan verificar el desarrollo de una actividad que involucra más de un componente, por ejemplo, la lógica de una aplicación <i>web</i> y la de un motor de base de datos.
 
       .tarjeta.sinredondeo.ajustesize.fondo-19.p-4.m-auto
         .row.justify-content-center.mb-3.align-items-center
@@ -976,7 +977,7 @@
     .row.fondo-20.align-items-center
       .col-lg-8.col-md-12.mb-lg-2.mb-lg-4.p-lg-5.p-3(data-aos="fade-down-right")
         p.mt-0.mt-lg-3.mt-xl-0 Existen varios tipos de pruebas que se pueden realizar a las aplicaciones o soluciones con las que cuenta la organización que permite verificar si realmente están realizando las operaciones según lo solicitado y lo establecido en el programa.
-        p Su aplicación dependerá del alcance de la evaluación a realizar, así como también dependerá si las soluciones son construidas in-house o son adquiridas a un tercero, en cualquiera de los casos, debería de validarse la información para garantizar su integridad
+        p Su aplicación dependerá del alcance de la evaluación a realizar, así como también dependerá si las soluciones son construidas <i>in-house</i> o son adquiridas a un tercero, en cualquiera de los casos, debería de validarse la información para garantizar su integridad
       .col-lg-4.col-md-6.col-sm-7.col-8.pe-0.pb-0.my-5.mostrar-lg(data-aos="fade-down-left")
         img.subir(src='@/assets/curso/tema1/imagen4.png')
     separador
@@ -986,12 +987,9 @@
       .col-lg-5.col-md-6.col-sm-7.col-8.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/imagen5.png')
       .col-lg-7.col-md-12(data-aos="fade-down-left")
-        p El hacking ético o también denominado sombrero blanco, es un conjunto de técnicas que se aplican para el descubrimiento de vulnerabilidades dentro de un entorno o un conjunto de aplicaciones.
+        p El <i>hacking</i> ético o también denominado sombrero blanco, es un conjunto de técnicas que se aplican para el descubrimiento de vulnerabilidades dentro de un entorno o un conjunto de aplicaciones.
         p Esta técnica se desarrolla de manera consentida y aprobada por las organizaciones y los responsables de realizar las validaciones correspondientes, con lo cual buscan identificar las debilidades, anormalidades y falencias en su seguridad.
         p Los expertos que realizan este tipo de validaciones hacen uso de técnicas especializadas que se denominan <em>Test</em> de Penetración o <em>Pentesting</em>, y su objetivo es burlar los controles de seguridad y en caso de conseguir una identificación positiva, este deberá reportarlo a la organización. Este tipo de estrategia no debería de causar daño, dado que es concebido y tiene fines de exploración.
-    figure(data-aos="fade-up-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.my-5(data-aos="fade-down-right") Este ejercicio se desarrolla básicamente en las siguientes 5 fases:
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
       h5 Figura 4. 
@@ -1005,38 +1003,102 @@
                 img(src='@/assets/curso/tema1/figura43.svg')
             h4 Fase 1 - Reconocimiento
             p Preparación del escenario, hace uso de diferentes técnicas para el descubrimiento de pistas que le permitan alcanzar su objetivo.
-
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                p Ingeniería social
+              li.mb-0
+                i.lista-ul__vineta
+                p <i>Dumpster diving</i>
+              li.mb-0
+                i.lista-ul__vineta
+                p Footprinters
           .tarjeta.ajustesize.fondo-22.p-4.m-auto
             .row.mb-3
               .col-4
                 img(src='@/assets/curso/tema1/figura44.svg')
             h4 Fase 2 - Escaneo
             p A partir de la información recolectada, inicia con el escaneo con la ayuda de herramientas para la búsqueda de vulnerabilidades.
-
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | Escáner de puertos
+              li.mb-0
+                i.lista-ul__vineta
+                | Escáner de vulnerabilidades
           .tarjeta.ajustesize.fondo-22.p-4.m-auto
             .row.mb-3
               .col-4
                 img(src='@/assets/curso/tema1/figura45.svg')
             h4 Fase 3 - Obtener acceso
             p Fase en la cual explota las vulnerabilidades encontradas.
-
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | Inyección de código
+              li.mb-0
+                i.lista-ul__vineta
+                | Basado en <i>web</i>
+              li.mb-0
+                i.lista-ul__vineta
+                | Basado en red
+              li.mb-0
+                i.lista-ul__vineta
+                | Ingeniería social
+              li.mb-0
+                i.lista-ul__vineta
+                | Ataque de contraseñas
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Network spoofung</i>
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Network sniffers</i>
           .tarjeta.ajustesize.fondo-22.p-4.m-auto
             .row.mb-3
               .col-4
                 img(src='@/assets/curso/tema1/figura46.svg')
             h4 Fase 4 - Mantener acceso
             p Fase en donde mantiene el sistema vulnerable.
-
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Back Doors</i>
+              li.mb-0
+                i.lista-ul__vineta
+                | Troyanos
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Rootkit</i>
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Keyloggers</i>
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Botnets</i>
           .tarjeta.ajustesize.fondo-22.p-4.m-auto
             .row.mb-3
               .col-4
                 img(src='@/assets/curso/tema1/figura47.svg')
             h4 Fase 5 - Cubrir huella
             p Fase en la cual cubre todas las pistas de las acciones realizadas durante el ejercicio.
+            ul.lista-ul
+              li.mb-0 
+                i.lista-ul__vineta
+                | Troyanos
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Rootkit</i>
+              li.mb-0
+                i.lista-ul__vineta
+                | Esteganografía
+              li.mb-0
+                i.lista-ul__vineta
+                | <i>Tuneling</i>         
     p.my-5(data-aos="fade-down-right") Ahora bien, dependiendo de su alcance, se puede determinar el tipo de <em>hacker</em> requerido, tal como se evidencia:
-    figure.mb-5(data-aos="fade-up-left")
+    figure(data-aos="fade-up-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mostrar-lg.my-5(data-aos="fade-down-right")
       .col-12
         img(src='@/assets/curso/tema1/figura48.svg')
@@ -1086,7 +1148,7 @@
         img(src='@/assets/curso/tema1/figura58.svg')
     .row
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white Comparación entre el <em>Red Team</em> y el <em>Blue Team</em>
+        h3.mb-0.text-white.ms-4 Comparación entre el <em>Red Team</em> y el <em>Blue Team</em>
     .row.justify-content-between.my-5(data-aos="fade-down-right")
       .col-lg-6.col-md-12.mb-4.mb-lg-0.fondo-25.redondearpuntas.pt-0.separar(data-aos="fade-down-right")
         .row.justify-content-center.mt-0
@@ -1118,7 +1180,7 @@
                 | Ingeniería social
               li 
                 i.fas.fa-check-circle
-                | Escaneo de aplicaciones web 
+                | Escaneo de aplicaciones <i>web</i> 
           .col-md-6.col-sm-7.col-8(data-aos="fade-down-left")
             img(src='@/assets/curso/tema1/figura60.svg')
       .col-lg-6.col-md-12.fondo-26.redondearpuntas.separar.pt-0(data-aos="fade-down-left")
@@ -1189,7 +1251,7 @@
               | Habilidades de análisis para identificar con precisión las amenazas más peligrosas y priorizar las respuestas en consecuencia.
             li 
               i.fas.fa-check-circle
-              | Técnicas de endurecimiento para reducir la superficie de ataque, particularmente en lo que se refiere al sistema de nombres de dominio (DNS) para prevenir ataques de <em>phishing</em> y otras técnicas de violación basadas en la web.
+              p Técnicas de endurecimiento para reducir la superficie de ataque, particularmente en lo que se refiere al sistema de nombres de dominio (DNS) para prevenir ataques de #[em phishing] y otras técnicas de violación basadas en la #[em web].
             li 
               i.fas.fa-check-circle
               | Gran conocimiento de las herramientas y sistemas de detección de seguridad existentes de la empresa y sus mecanismos de alerta.

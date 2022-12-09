@@ -44,7 +44,7 @@
     p.my-5(data-aos="fade-down-right") A continuación, se explica cada uno de estos:
     .row
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white GTC-ISO-IEC 27035:2012 - Gestión de incidentes de seguridad de la información
+        h3.mb-0.text-white.ms-4 GTC-ISO-IEC 27035:2012 - Gestión de incidentes de seguridad de la información
     .row.justify-content-center.my-5
       .col-lg-5.col-md-6.col-sm-7.col-8.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema2/imagen3.png')
@@ -224,7 +224,7 @@
             p.mb-0 Esta norma es de las más adoptadas por las organizaciones, ya que su modelo permite su fácil adopción y alineación con sistemas de gestión como los SGSI.
     .row.mb-5
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white NIST SP 800-61 Rev. 2- Guía de manejo de incidentes de seguridad informática
+        h3.mb-0.text-white.ms-4 NIST SP 800-61 Rev. 2- Guía de manejo de incidentes de seguridad informática
     .row.my-5
       .col-11
         .row.align-items-center.justify-content-center
@@ -234,7 +234,7 @@
             .div.fondo-32.correr-izq.px-5.padding-y
               p El Instituto Nacional de Normas y Tecnología NIST nos hace entrega de la guía de incidentes para seguridad informática, la cual dicta los lineamientos para la gestión de la seguridad de la información de acuerdo a su correspondiente análisis y metodología de evaluación.
               p Esta guía en su metodología también propone unas fases para la atención de incidentes de seguridad, como se puede apreciar en su esquema de ciclo de vida:
-
+    h3.mb-5 Ciclo de vida de la atención de incidentes según NIST SP 800-61 Rev. 2
     img.mb-4.mostrar-lg(src='@/assets/curso/tema2/figura5.svg')
     .row.justify-content-center.mostrar-movil(data-aos="fade-down-right")
       .col-md-8.col-sm-9.col-10
@@ -301,20 +301,20 @@
         p.mt-0.mt-lg-3.mt-xl-0 Desde el punto de vista metodológico y para las organizaciones colombianas, el MinTIC, ha generado una guía para la adopción de estos planes en las organizaciones tanto públicas principalmente pero no excluye las entidades privadas. Esta guía se denomina “Guía para la Gestión y Clasificación de Incidentes de Seguridad de la Información” y establece los lineamientos para su adopción de acuerdo al siguiente esquema:
     .row.my-5
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white Procesos de la gestión de incidentes de seguridad de la información
+        h3.mb-0.text-white.ms-4 Procesos de la gestión de incidentes de seguridad de la información
     .tarjeta.tarjeta--azul.fondo-36.p-4.my-5(data-aos="fade-down-right")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-5.col-md-11.mb-4.mb-md-0
             h4 Prevención
-            p La entidad debe prepararse antes de la materialización de una amenaza; el equipo de Csirt Gobierno establece recomendaciones referentes a la configuración de últimas actualizaciones en sistemas operativos, servicios y aplicaciones. Es necesario que se cuente con campañas de concienciación y sensibilización hacia los funcionarios en materia de ciberseguridad.
+            p La entidad debe prepararse antes de la materialización de una amenaza; el equipo de <i>Csirt</i> Gobierno establece recomendaciones referentes a la configuración de últimas actualizaciones en sistemas operativos, servicios y aplicaciones. Es necesario que se cuente con campañas de concienciación y sensibilización hacia los funcionarios en materia de ciberseguridad.
           .col-lg-5.col-md-6.col-sm-7.col-8
             figure
               img(src='@/assets/curso/tema2/imagen8.png')
         .row.justify-content-center.pt-4
           .col-lg-5.col-md-11.mb-4.mb-md-0
             h4 Protección y detección
-            p El equipo de especialistas de Csirt Gobierno dispone de aptitudes como investigación, servicios proactivos, así como reactivos frente a eventos e incidentes presentados en portales web y servicios de las entidades gubernamentales. Las anormalidades observadas en el monitoreo constante, se informan a las organizaciones afectadas. Adicional, se debe contar con herramientas como es el caso del SIEM, que permitan correlacionar eventos asociados a amenazas. 
+            p El equipo de especialistas de <i>Csirt</i> Gobierno dispone de aptitudes como investigación, servicios proactivos, así como reactivos frente a eventos e incidentes presentados en portales <i>web</i> y servicios de las entidades gubernamentales. Las anormalidades observadas en el monitoreo constante, se informan a las organizaciones afectadas. Adicional, se debe contar con herramientas como es el caso del SIEM, que permitan correlacionar eventos asociados a amenazas. 
             p En esta fase se remiten análisis de la amenaza, directorios en donde se establece persistencia de la misma e indicadores de compromiso que deben ser incluidos en los dispositivos perimetrales con el fin de proteger la infraestructura tecnológica de la entidad.
      
           .col-lg-5.col-md-6.col-sm-7.col-8
@@ -331,14 +331,14 @@
         .row.justify-content-center
           .col-lg-5.col-md-11.mb-4.mb-md-0
             h4 Recuperación y aprendizaje
-            p Mediante recomendaciones emitidas por Csirt Gobierno, es necesario concienciar a la entidad y a sus funcionarios acerca de los vectores de infección y propagación de la amenaza, adoptando mecanismos necesarios para restablecer la infraestructura o servicio afectado antes de la materialización de la amenaza. 
+            p Mediante recomendaciones emitidas por <i>Csirt</i> Gobierno, es necesario concienciar a la entidad y a sus funcionarios acerca de los vectores de infección y propagación de la amenaza, adoptando mecanismos necesarios para restablecer la infraestructura o servicio afectado antes de la materialización de la amenaza. 
             p Las lecciones aprendidas siempre se deben tomar en cuenta en el plan de mejoramiento de la entidad, una vez se identifican las brechas de seguridad y vulnerabilidades en el entorno tecnológico; también, se realiza un seguimiento periódico establecido en las políticas de la entidad para observar los factores que aún se deben mejorar.
 
           .col-lg-5.col-md-6.col-sm-7.col-8
             figure
               img(src='@/assets/curso/tema2/imagen11.png')
     .cajon-b.otrocolor.p-3.mb-5(data-aos="fade-down-right")
-      p La guía brinda así mismo, las indicaciones para su adopción en la organización, definiendo los recursos humanos, económicos y de procedimiento, necesarios para su implementación y operación, en donde se ha involucrado el Csirt Gobierno, como entidad que acompaña dicho proceso a las entidades gubernamentales.
+      p La guía brinda así mismo, las indicaciones para su adopción en la organización, definiendo los recursos humanos, económicos y de procedimiento, necesarios para su implementación y operación, en donde se ha involucrado el <i>Csirt</i> Gobierno, como entidad que acompaña dicho proceso a las entidades gubernamentales.
     .row.justify-content-center.my-5(data-aos="fade-down-right")
       .col-lg-10.col-md-12
         .row.justify-content-center.align-items-center.fondo-10.ps-3.pe-5.py-4.redondearpuntas.mb-4
@@ -349,7 +349,7 @@
             p.mb-4.mb-md-0 Se sugiere consultar este documento base desde el sitio oficial del MinTIC para conocer los detalles y guía de implementación. Este recurso se encuentra también en el material complementario.
           .col-xxl-2.col-md-3
             a.boton.color-acento-botones(:href="('https://gobiernodigital.mintic.gov.co/seguridadyprivacidad/704/articles-237908_maestro_mspi.pdf')" target="_blank" type="application/pdf")
-              span Ir al sitio web
+              span Ir al sitio <i>web</i>
               i.fas.fa-file-download
     separador
     #t_2_3.titulo-segundo.color-acento-contenido.pb-5(data-aos="fade-down-left")
@@ -383,7 +383,7 @@
     p.my-5(data-aos="fade-down-right") Veamos una explicación de cada una:
     .row
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white Preparación
+        h3.mb-0.text-white.ms-4 Preparación
     p.mt-5(data-aos="fade-down-right") Esta fase conlleva a que las entidades establezcan el plan para afrontar un incidente de seguridad. Esto involucra fortalecer las capacidades de detección, evaluación, contención y/o recuperación. Esta fase debe estar directamente apoyada por las áreas responsables de tecnología, dado que deben de reconocer las capacidades actuales y las necesarias para realizar una adecuada gestión.
     p.mb-5(data-aos="fade-down-right") Dentro de las actividades que deben adelantar para la preparación, se recomiendan:
     .row-justify-content-center
@@ -432,7 +432,7 @@
 
     .row.my-5
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white Detección, evaluación y análisis
+        h3.mb-0.text-white.ms-4 Detección, evaluación y análisis
     p.mb-5(data-aos="fade-down-right") Esta fase requiere que la organización fortalezca las capacidades para detectar, evaluar y analizar cualquier comportamiento por fuera de lo común; para ello, se recomienda:
 
     .tarjeta.tarjeta--azul.fondo-36.p-4.my-5(data-aos="fade-down-right")
@@ -477,13 +477,13 @@
             ul.lista-ul
               li 
                 i.fas.fa-check-circle
-                | Alto impacto: cuando un incidente afecta los activos de información de manera catastrófica, afectando el desarrollo de los objetivos de la organización.
+                p #[b Alto impacto]: cuando un incidente afecta los activos de información de manera catastrófica, afectando el desarrollo de los objetivos de la organización.
               li 
                 i.fas.fa-check-circle
-                | Medio impacto: el incidente afecta activos de información de manera moderada, y su impacto es medio.
+                p #[b Medio impacto]: el incidente afecta activos de información de manera moderada, y su impacto es medio.
               li 
                 i.fas.fa-check-circle
-                | Bajo impacto: cuando el incidente afecta activos de información con bajo impacto o insignificante o no afecta el desarrollo de los objetivos de la organización. 
+                p #[b Bajo impacto]: cuando el incidente afecta activos de información con bajo impacto o insignificante o no afecta el desarrollo de los objetivos de la organización. 
           .col-lg-3.col-md-4.col-sm-5.col-5
             figure
               img(src='@/assets/curso/tema2/imagen19.png')
@@ -639,7 +639,7 @@
                 td Impacto alto en uno o más componentes de más de un sistema de información.
     .row
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white Contención erradicación y recuperación
+        h3.mb-0.text-white.ms-4 Contención erradicación y recuperación
     p.my-5(data-aos="fade-down-right") Esta fase es de gran importancia, ya que incorpora la estrategia propuesta para tomar decisiones en caso de presentarse un incidente y evitar que este se propague o tenga una mayor afectación. Consta de los siguientes componentes:
     .row.justify-content-center
       .col-sm-10.col-12
@@ -658,7 +658,7 @@
             p.text-center Busca restaurar el servicio, posterior a la identificación y contención, borrando los rastros del incidente.
     .row.my-5
       .col-auto.fondo-24.py-3.px-5(data-aos="fade-down-right")
-        h3.mb-0.text-white Actividades post-incidentes
+        h3.mb-0.text-white.ms-4 Actividades post-incidentes
     .row.my-5.justify-content-center
       .col-10
         .row.align-items-center.justify-content-center

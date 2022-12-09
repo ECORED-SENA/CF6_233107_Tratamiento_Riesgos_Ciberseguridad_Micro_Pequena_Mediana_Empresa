@@ -23,50 +23,18 @@
     animation: float2 2.8s linear infinite alternate
     position: absolute
     top: 41%
-    right: 8%  //desde top 41%, right 7.8% - medio top 51%, right 30% hasta top 65%  right 45%
+    right: 8% 
 
 @media (min-width: 1401px)
   @keyframes float2
     0%
       translate: -5% 15%
-    /*5%
-      translate: 110px -112px
-    /*10%
-      translate: 115px -118px
-    /*15%
-      translate: -70px 120px
-    /*20%
-      translate: 125px -130px
     25%
       translate: -27% 25%
-    /*30%
-      translate: 135px -142px
-    /*35%
-      translate: 140px -148px
-    /*40%
-      translate: 145px -154px
-    /*45%
-      translate: 150px -160px
     50%
       translate: -55% 35%
-    /*55%
-      translate: 166px -170px
-    /*60%
-      translate: 172px -175px
-    /*65%
-      translate: -155px 160px
-    /*70%
-      translate: 184px -185px
     75%
       translate: -100% 70%
-    /*80%
-      translate: 196px -195px
-    /*85%
-      translate: 202px -200px
-    /*90%
-      translate: -190px 190px
-    /*95%
-      translate: 214px -210px
     100%
       translate: -145% 100%
 
@@ -217,6 +185,8 @@
     background-size: cover
     background-repeat: no-repeat
     background-position: top left
+    @media( max-width: 576px )
+      background-position: center
     border-bottom-right-radius: 30px
     border-top-right-radius: 30px
   &-25
@@ -541,18 +511,20 @@
 
 .ajustesize
   @media( min-width: 1400px )
-    height: 300px
+    height: 400px
   @media( max-width: 1400px )
-    height: 320px
+    height: 420px
   @media( max-width: 576px )
     width: 90%
     height: 300px
-  @media( max-width: 410px )
-    height: 350px
+  @media( max-width: 991px )
+    height: 450px
+  @media( max-width: 425px )
+    height: 390px
   @media( max-width: 360px )
     height: 380px
   @media( max-width: 330px )
-    height: 400px
+    height: 450px
 
 .ajustesize1
   @media( min-width: 1400px )
