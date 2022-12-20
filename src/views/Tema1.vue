@@ -983,6 +983,9 @@
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
       h2 1.3 <em>Hacking</em> ético
+    figure.mb-5(data-aos="fade-up-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8q3cb4QwJSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
     .row.justify-content-center.mb-5
       .col-lg-5.col-md-6.col-sm-7.col-8.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/imagen5.png')
@@ -990,6 +993,9 @@
         p El <i>hacking</i> ético o también denominado sombrero blanco, es un conjunto de técnicas que se aplican para el descubrimiento de vulnerabilidades dentro de un entorno o un conjunto de aplicaciones.
         p Esta técnica se desarrolla de manera consentida y aprobada por las organizaciones y los responsables de realizar las validaciones correspondientes, con lo cual buscan identificar las debilidades, anormalidades y falencias en su seguridad.
         p Los expertos que realizan este tipo de validaciones hacen uso de técnicas especializadas que se denominan <em>Test</em> de Penetración o <em>Pentesting</em>, y su objetivo es burlar los controles de seguridad y en caso de conseguir una identificación positiva, este deberá reportarlo a la organización. Este tipo de estrategia no debería de causar daño, dado que es concebido y tiene fines de exploración.
+    figure.my-5(data-aos="fade-up-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/r3S8tscj-bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
     p.my-5(data-aos="fade-down-right") Este ejercicio se desarrolla básicamente en las siguientes 5 fases:
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
       h5 Figura 4. 
@@ -1151,7 +1157,8 @@
         h3.mb-0.text-white.ms-4 Comparación entre el <em>Red Team</em> y el <em>Blue Team</em>
     .row.justify-content-between.my-5(data-aos="fade-down-right")
       .col-lg-6.col-md-12.mb-4.mb-lg-0.fondo-25.redondearpuntas.pt-0.separar(data-aos="fade-down-right")
-        .row.justify-content-center.mt-0
+        .row.justify-content-cent
+        er.mt-0
           .col-4.pt-0.subir1
             img.mt-0(src='@/assets/curso/tema1/figura59.svg')
           .col-8.pt-4

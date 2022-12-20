@@ -670,6 +670,9 @@
     separador
     #t_2_4.titulo-segundo.color-acento-contenido.pb-5(data-aos="fade-down-left")
       h2 2.4 Documentación
+    figure.mb-5(data-aos="fade-up-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/63ke83Pc-yw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
     .row.justify-content-center
       .col-lg-9.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         p La gestión de incidentes, como parte primordial de las estrategias de seguridad de la información en las organizaciones, se fundamenta en la información recolectada, la cual es fundamental para la toma de decisiones, informes, lecciones aprendidas e incluso para el mejoramiento continuo del plan de gestión.
